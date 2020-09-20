@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px;
+  /* background-color: rosybrown; */
+  height: 50px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.header__black {
+  background-color: #111;
+}
+.header_ticker {
+  width: 350px;
+  /* margin-left: 250px; */
+  color: white;
+}
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  position: fixed;
+  left: 20px;
+}
+.header__avatar {
+  width: 50px;
+  position: fixed;
+  right: 20px;
+  object-fit: contain;
+}
